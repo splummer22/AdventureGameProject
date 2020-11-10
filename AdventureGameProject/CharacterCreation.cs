@@ -12,12 +12,12 @@ namespace AdventureGameProject
 {
     public partial class CharacterCreation : Form
     {
-        int TypingSpeed;
-        int Adaptibility;
-        int Caffeine;
-        int Strength;
-        string name;
-        string picture;
+        public int TypingSpeed;
+        public int Adaptibility;
+        public int Caffeine;
+        public int Strength;
+        public string name;
+        public string picture;
 
         public CharacterCreation()
         {

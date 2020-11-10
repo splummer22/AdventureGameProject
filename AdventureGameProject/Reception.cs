@@ -12,8 +12,9 @@ namespace AdventureGameProject
 {
     public partial class Reception : Form
     {
-
-        public Reception(CharacterClass c)
+        Form1 info;
+        
+        public Reception(Form1 c)
         {
             InitializeComponent(); 
         }
