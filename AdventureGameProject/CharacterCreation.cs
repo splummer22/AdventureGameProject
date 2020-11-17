@@ -17,11 +17,13 @@ namespace AdventureGameProject
         public int Caffeine;
         public int Strength;
         public string name;
-        public string picture;
+
+        CharacterClass Characters;
 
         public CharacterCreation()
         {
             InitializeComponent();
+            Characters = new CharacterClass();
         }
 
         private void cbCaffeine_SelectedIndexChanged(object sender, EventArgs e)
@@ -82,15 +84,23 @@ namespace AdventureGameProject
         private void button1_Click(object sender, EventArgs e)
         {
            if(TypingSpeed != 0 && Caffeine != 0 && Adaptibility != 0 && cbCharacterPicture.Text != "")
-                { 
-                Reception n = new Reception();
+                {
+                
+                Characters.TypingSpeed = TypingSpeed;
+                Characters.Adaptibility = Adaptibility;
+                Characters.Caffeine = Caffeine;
+                Characters.Strength = Strength;
+                Characters.name = name;
+                Characters.picture = pbCharacter.Image;
+
+                Reception n = new Reception(Characters);
                 n.Show();
                 this.Hide();
 
                 }
             else
             {
-                MessageBox warning = new MessageBox("Please select an option for each category");
+                MessageBox.Show("Please select an option for each category");
             }
            
         }
