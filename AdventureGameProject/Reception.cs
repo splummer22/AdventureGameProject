@@ -22,6 +22,13 @@ namespace AdventureGameProject
 
         private void Reception_Load(object sender, EventArgs e)
         {
+            pbReception.Image = Properties.Resources.reception;
+            pbReception.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            lblTypingSpeed.Text = "" + info.TypingSpeed;
+            lblAdaptability.Text = "" + info.Adaptibility;
+            lblCaffiene.Text = "" + info.Caffeine;
+            lblPowerPointSkills.Text = "" + info.Strength;
 
         }
     }

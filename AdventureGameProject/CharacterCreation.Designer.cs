@@ -46,7 +46,7 @@
             // 
             // cbCaffeine
             // 
-            this.cbCaffeine.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbCaffeine.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.cbCaffeine.FormattingEnabled = true;
             this.cbCaffeine.Items.AddRange(new object[] {
             "1",
@@ -145,7 +145,7 @@
             // 
             this.pbCharacter.Location = new System.Drawing.Point(283, 20);
             this.pbCharacter.Name = "pbCharacter";
-            this.pbCharacter.Size = new System.Drawing.Size(175, 175);
+            this.pbCharacter.Size = new System.Drawing.Size(159, 158);
             this.pbCharacter.TabIndex = 8;
             this.pbCharacter.TabStop = false;
             // 
@@ -212,6 +212,7 @@
             this.Controls.Add(this.cbCaffeine);
             this.Name = "CharacterCreation";
             this.Text = "CharacterCreation";
+            this.Load += new System.EventHandler(this.CharacterCreation_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbCharacter)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

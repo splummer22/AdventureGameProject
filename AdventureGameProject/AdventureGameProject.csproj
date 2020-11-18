@@ -91,6 +91,9 @@
     <Compile Include="SupplyCloset.Designer.cs">
       <DependentUpon>SupplyCloset.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Breakroom.resx">
+      <DependentUpon>Breakroom.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CharacterCreation.resx">
       <DependentUpon>CharacterCreation.cs</DependentUpon>
     </EmbeddedResource>
@@ -143,6 +146,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\FirstCharacter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breakroom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Conference-Room.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cubicle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reception.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SupplyCloset.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

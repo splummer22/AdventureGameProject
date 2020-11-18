@@ -15,7 +15,7 @@ namespace AdventureGameProject
         public int TypingSpeed;
         public int Adaptibility;
         public int Caffeine;
-        public int Strength;
+        public int PowerPointSkills;
         public string name;
 
         CharacterClass Characters;
@@ -42,7 +42,7 @@ namespace AdventureGameProject
             cbTypingSpeed.Items.Remove(cbAdaptibility.Text);
         }
 
-        private void cbStrength_SelectedIndexChanged(object sender, EventArgs e)
+        private void cbPowerPointSkills_SelectedIndexChanged(object sender, EventArgs e)
         {
             Caffeine = Convert.ToInt32(cbCaffeine.Text);
             cbCaffeine.Items.Remove(cbPowerPointSkills.Text);
@@ -89,7 +89,7 @@ namespace AdventureGameProject
                 Characters.TypingSpeed = TypingSpeed;
                 Characters.Adaptibility = Adaptibility;
                 Characters.Caffeine = Caffeine;
-                Characters.Strength = Strength;
+                Characters.Strength = PowerPointSkills;
                 Characters.name = name;
                 Characters.picture = pbCharacter.Image;
 
@@ -103,6 +103,11 @@ namespace AdventureGameProject
                 MessageBox.Show("Please select an option for each category");
             }
            
+        }
+
+        private void CharacterCreation_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

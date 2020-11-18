@@ -31,9 +31,16 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbReception = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblPowerPointSkills = new System.Windows.Forms.Label();
+            this.lblCaffiene = new System.Windows.Forms.Label();
+            this.lblAdaptability = new System.Windows.Forms.Label();
+            this.lblTypingSpeed = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbReception)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -47,6 +54,13 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.lblPowerPointSkills);
+            this.groupBox2.Controls.Add(this.lblCaffiene);
+            this.groupBox2.Controls.Add(this.lblAdaptability);
+            this.groupBox2.Controls.Add(this.lblTypingSpeed);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(33, 185);
@@ -59,19 +73,82 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 33);
+            this.label1.Location = new System.Drawing.Point(6, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 20);
+            this.label1.Size = new System.Drawing.Size(106, 20);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.label1.Text = "Typing Speed";
             // 
-            // pictureBox1
+            // pbReception
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(382, 44);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(328, 301);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.pbReception.Location = new System.Drawing.Point(382, 44);
+            this.pbReception.Name = "pbReception";
+            this.pbReception.Size = new System.Drawing.Size(328, 301);
+            this.pbReception.TabIndex = 2;
+            this.pbReception.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 67);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(91, 20);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Adaptability";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 137);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(129, 20);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "PowerPoint Skills";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 101);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(69, 20);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Caffiene";
+            // 
+            // lblPowerPointSkills
+            // 
+            this.lblPowerPointSkills.AutoSize = true;
+            this.lblPowerPointSkills.Location = new System.Drawing.Point(143, 137);
+            this.lblPowerPointSkills.Name = "lblPowerPointSkills";
+            this.lblPowerPointSkills.Size = new System.Drawing.Size(51, 20);
+            this.lblPowerPointSkills.TabIndex = 15;
+            this.lblPowerPointSkills.Text = "label8";
+            // 
+            // lblCaffiene
+            // 
+            this.lblCaffiene.AutoSize = true;
+            this.lblCaffiene.Location = new System.Drawing.Point(143, 101);
+            this.lblCaffiene.Name = "lblCaffiene";
+            this.lblCaffiene.Size = new System.Drawing.Size(51, 20);
+            this.lblCaffiene.TabIndex = 14;
+            this.lblCaffiene.Text = "label7";
+            // 
+            // lblAdaptability
+            // 
+            this.lblAdaptability.AutoSize = true;
+            this.lblAdaptability.Location = new System.Drawing.Point(143, 67);
+            this.lblAdaptability.Name = "lblAdaptability";
+            this.lblAdaptability.Size = new System.Drawing.Size(51, 20);
+            this.lblAdaptability.TabIndex = 13;
+            this.lblAdaptability.Text = "label6";
+            // 
+            // lblTypingSpeed
+            // 
+            this.lblTypingSpeed.AutoSize = true;
+            this.lblTypingSpeed.Location = new System.Drawing.Point(143, 32);
+            this.lblTypingSpeed.Name = "lblTypingSpeed";
+            this.lblTypingSpeed.Size = new System.Drawing.Size(51, 20);
+            this.lblTypingSpeed.TabIndex = 12;
+            this.lblTypingSpeed.Text = "label5";
             // 
             // Reception
             // 
@@ -79,7 +156,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pbReception);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Reception";
@@ -87,7 +164,7 @@
             this.Load += new System.EventHandler(this.Reception_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbReception)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -97,6 +174,13 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pbReception;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblPowerPointSkills;
+        private System.Windows.Forms.Label lblCaffiene;
+        private System.Windows.Forms.Label lblAdaptability;
+        private System.Windows.Forms.Label lblTypingSpeed;
     }
 }

@@ -16,5 +16,11 @@ namespace AdventureGameProject
         {
             InitializeComponent();
         }
+
+        private void Breakroom_Load(object sender, EventArgs e)
+        {
+            pbBreakroom.Image = Properties.Resources.breakroom;
+            pbBreakroom.SizeMode = PictureBoxSizeMode.StretchImage;
+        }
     }
 }
