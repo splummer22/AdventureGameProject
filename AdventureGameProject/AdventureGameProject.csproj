@@ -94,6 +94,12 @@
     <EmbeddedResource Include="CharacterCreation.resx">
       <DependentUpon>CharacterCreation.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ConferenceRoom.resx">
+      <DependentUpon>ConferenceRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cubicle.resx">
+      <DependentUpon>Cubicle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -109,6 +115,9 @@
     </Compile>
     <EmbeddedResource Include="Reception.resx">
       <DependentUpon>Reception.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplyCloset.resx">
+      <DependentUpon>SupplyCloset.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
