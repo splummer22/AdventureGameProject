@@ -30,15 +30,15 @@
         {
             this.pbCubicle = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lblPowerPointSkills = new System.Windows.Forms.Label();
+            this.lblCaffiene = new System.Windows.Forms.Label();
+            this.lblAdaptability = new System.Windows.Forms.Label();
+            this.lblTypingSpeed = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.lblTypingSpeed = new System.Windows.Forms.Label();
-            this.lblAdaptability = new System.Windows.Forms.Label();
-            this.lblCaffiene = new System.Windows.Forms.Label();
-            this.lblPowerPointSkills = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbCubicle)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -69,14 +69,41 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Stats";
             // 
-            // groupBox1
+            // lblPowerPointSkills
             // 
-            this.groupBox1.Location = new System.Drawing.Point(62, 75);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 135);
-            this.groupBox1.TabIndex = 3;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.lblPowerPointSkills.AutoSize = true;
+            this.lblPowerPointSkills.Location = new System.Drawing.Point(143, 127);
+            this.lblPowerPointSkills.Name = "lblPowerPointSkills";
+            this.lblPowerPointSkills.Size = new System.Drawing.Size(51, 20);
+            this.lblPowerPointSkills.TabIndex = 11;
+            this.lblPowerPointSkills.Text = "label8";
+            // 
+            // lblCaffiene
+            // 
+            this.lblCaffiene.AutoSize = true;
+            this.lblCaffiene.Location = new System.Drawing.Point(143, 91);
+            this.lblCaffiene.Name = "lblCaffiene";
+            this.lblCaffiene.Size = new System.Drawing.Size(51, 20);
+            this.lblCaffiene.TabIndex = 10;
+            this.lblCaffiene.Text = "label7";
+            // 
+            // lblAdaptability
+            // 
+            this.lblAdaptability.AutoSize = true;
+            this.lblAdaptability.Location = new System.Drawing.Point(143, 57);
+            this.lblAdaptability.Name = "lblAdaptability";
+            this.lblAdaptability.Size = new System.Drawing.Size(51, 20);
+            this.lblAdaptability.TabIndex = 9;
+            this.lblAdaptability.Text = "label6";
+            // 
+            // lblTypingSpeed
+            // 
+            this.lblTypingSpeed.AutoSize = true;
+            this.lblTypingSpeed.Location = new System.Drawing.Point(143, 22);
+            this.lblTypingSpeed.Name = "lblTypingSpeed";
+            this.lblTypingSpeed.Size = new System.Drawing.Size(51, 20);
+            this.lblTypingSpeed.TabIndex = 8;
+            this.lblTypingSpeed.Text = "label5";
             // 
             // label4
             // 
@@ -85,7 +112,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(69, 20);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Caffiene";
+            this.label4.Text = "Caffeine";
             // 
             // label3
             // 
@@ -114,41 +141,14 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Typing Speed";
             // 
-            // lblTypingSpeed
+            // groupBox1
             // 
-            this.lblTypingSpeed.AutoSize = true;
-            this.lblTypingSpeed.Location = new System.Drawing.Point(143, 22);
-            this.lblTypingSpeed.Name = "lblTypingSpeed";
-            this.lblTypingSpeed.Size = new System.Drawing.Size(51, 20);
-            this.lblTypingSpeed.TabIndex = 8;
-            this.lblTypingSpeed.Text = "label5";
-            // 
-            // lblAdaptability
-            // 
-            this.lblAdaptability.AutoSize = true;
-            this.lblAdaptability.Location = new System.Drawing.Point(143, 57);
-            this.lblAdaptability.Name = "lblAdaptability";
-            this.lblAdaptability.Size = new System.Drawing.Size(51, 20);
-            this.lblAdaptability.TabIndex = 9;
-            this.lblAdaptability.Text = "label6";
-            // 
-            // lblCaffiene
-            // 
-            this.lblCaffiene.AutoSize = true;
-            this.lblCaffiene.Location = new System.Drawing.Point(143, 91);
-            this.lblCaffiene.Name = "lblCaffiene";
-            this.lblCaffiene.Size = new System.Drawing.Size(51, 20);
-            this.lblCaffiene.TabIndex = 10;
-            this.lblCaffiene.Text = "label7";
-            // 
-            // lblPowerPointSkills
-            // 
-            this.lblPowerPointSkills.AutoSize = true;
-            this.lblPowerPointSkills.Location = new System.Drawing.Point(143, 127);
-            this.lblPowerPointSkills.Name = "lblPowerPointSkills";
-            this.lblPowerPointSkills.Size = new System.Drawing.Size(51, 20);
-            this.lblPowerPointSkills.TabIndex = 11;
-            this.lblPowerPointSkills.Text = "label8";
+            this.groupBox1.Location = new System.Drawing.Point(62, 75);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(200, 135);
+            this.groupBox1.TabIndex = 3;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
             // 
             // Cubicle
             // 
