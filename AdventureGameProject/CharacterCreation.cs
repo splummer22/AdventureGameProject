@@ -44,7 +44,7 @@ namespace AdventureGameProject
 
         private void cbPowerPointSkills_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Caffeine = Convert.ToInt32(cbCaffeine.Text);
+            PowerPointSkills = Convert.ToInt32(cbPowerPointSkills.Text);
             cbCaffeine.Items.Remove(cbPowerPointSkills.Text);
             cbAdaptibility.Items.Remove(cbPowerPointSkills.Text);
             cbTypingSpeed.Items.Remove(cbPowerPointSkills.Text);
@@ -53,9 +53,9 @@ namespace AdventureGameProject
         private void cbTypingSpeed_SelectedIndexChanged(object sender, EventArgs e)
         {
             TypingSpeed = Convert.ToInt32(cbTypingSpeed.Text);
-            cbCaffeine.Items.Remove(cbCaffeine.Text);
-            cbPowerPointSkills.Items.Remove(cbCaffeine.Text);
-            cbAdaptibility.Items.Remove(cbCaffeine.Text);
+            cbCaffeine.Items.Remove(cbTypingSpeed.Text);
+            cbPowerPointSkills.Items.Remove(cbTypingSpeed.Text);
+            cbAdaptibility.Items.Remove(cbTypingSpeed.Text);
         }
 
         private void cbCharacterPicture_SelectedIndexChanged(object sender, EventArgs e)
@@ -108,6 +108,14 @@ namespace AdventureGameProject
         private void CharacterCreation_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void cbPowerPointSkills_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            PowerPointSkills = Convert.ToInt32(cbPowerPointSkills.Text);
+            cbCaffeine.Items.Remove(cbPowerPointSkills.Text);
+            cbAdaptibility.Items.Remove(cbPowerPointSkills.Text);
+            cbTypingSpeed.Items.Remove(cbPowerPointSkills.Text);
         }
     }
 }

@@ -85,7 +85,7 @@
             this.cbPowerPointSkills.Name = "cbPowerPointSkills";
             this.cbPowerPointSkills.Size = new System.Drawing.Size(121, 21);
             this.cbPowerPointSkills.TabIndex = 2;
-
+            this.cbPowerPointSkills.SelectedIndexChanged += new System.EventHandler(this.cbPowerPointSkills_SelectedIndexChanged_1);
             // 
             // cbAdaptibility
             // 
