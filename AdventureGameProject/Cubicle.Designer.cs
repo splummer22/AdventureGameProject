@@ -61,7 +61,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 19;
-            this.button2.Text = "Sneak";
+            this.button2.Text = "Proposal";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
@@ -79,9 +79,9 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(9, 206);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(72, 16);
+            this.label6.Size = new System.Drawing.Size(178, 16);
             this.label6.TabIndex = 17;
-            this.label6.Text = "Type up a ";
+            this.label6.Text = "Type up a detailed proposal";
             // 
             // label5
             // 

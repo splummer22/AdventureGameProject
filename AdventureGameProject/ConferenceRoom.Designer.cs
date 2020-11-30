@@ -61,16 +61,16 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 19;
-            this.button2.Text = "Brew";
+            this.button2.Text = "Improvise";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 155);
+            this.button1.Location = new System.Drawing.Point(12, 171);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 18;
-            this.button1.Text = "Search";
+            this.button1.Text = "Ask";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // label6
@@ -79,19 +79,19 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(9, 206);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(146, 16);
+            this.label6.Size = new System.Drawing.Size(237, 16);
             this.label6.TabIndex = 17;
-            this.label6.Text = "Brew a pot of hot coffee";
+            this.label6.Text = "Improvise and pretend nothing\'s wrong";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(9, 136);
+            this.label5.Location = new System.Drawing.Point(9, 152);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(198, 16);
+            this.label5.Size = new System.Drawing.Size(314, 16);
             this.label5.TabIndex = 16;
-            this.label5.Text = "Search the fridge for Iced Coffee";
+            this.label5.Text = "Ask to borrow a laptop, admitting you\'re unprepared";
             // 
             // groupBox2
             // 
@@ -188,10 +188,11 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 93);
+            this.groupBox1.Size = new System.Drawing.Size(200, 121);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "You enter the breakroom, hoping for a cup of coffee to wake you up.";
+            this.groupBox1.Text = "You enter the Conference Room. It\'s time to tell the Boss you big plans, but sudd" +
+    "enly, you laptop stops working.";
             // 
             // ConferenceRoom
             // 
