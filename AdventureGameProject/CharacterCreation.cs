@@ -92,6 +92,7 @@ namespace AdventureGameProject
                 Characters.Strength = PowerPointSkills;
                 Characters.name = name;
                 Characters.picture = pbCharacter.Image;
+                Characters.Energy = 10;
 
                 Reception n = new Reception(Characters);
                 n.Show();

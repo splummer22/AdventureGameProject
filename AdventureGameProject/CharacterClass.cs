@@ -15,6 +15,7 @@ namespace AdventureGameProject
         public int Strength;
         public string name;
         public Image picture;
+        public int Energy;
 
     }
 }

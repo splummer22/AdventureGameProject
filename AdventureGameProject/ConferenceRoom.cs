@@ -30,5 +30,42 @@ namespace AdventureGameProject
             lblCaffiene.Text = "" + info.Caffeine;
             lblPowerPointSkills.Text = "" + info.Strength;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            LoseScreen n = new LoseScreen();
+            n.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Random s = new Random();
+            int sum;
+            sum = s.Next(1, 9) + info.Caffeine;
+            if (sum >= 10)
+            {
+
+            }
+            else
+            {
+
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Random s = new Random();
+            int sum;
+            sum = s.Next(1, 9) + info.Caffeine;
+            if (sum >= 13)
+            {
+
+            }
+            else
+            {
+
+            }
+        }
     }
 }

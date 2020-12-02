@@ -31,5 +31,45 @@ namespace AdventureGameProject
             lblPowerPointSkills.Text = "" + info.Strength;
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Random s = new Random();
+            int sum;
+            sum = s.Next(1, 9) + info.Caffeine;
+            if(sum >= 4)
+            {
+                Breakroom n = new Breakroom();
+                n.Show();
+                this.Hide();
+            }
+            else
+            {
+                info.Energy = info.Energy - 2;
+                Breakroom n = new Breakroom();
+                n.Show();
+                this.Hide();
+            }
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Random s = new Random();
+            int sum;
+            sum = s.Next(1, 9) + info.Caffeine;
+            if (sum >= 7)
+            {
+                Breakroom n = new Breakroom();
+                n.Show();
+                this.Hide();
+            }
+            else
+            {
+                Breakroom n = new Breakroom();
+                n.Show();
+                this.Hide();
+            }
+        }
     }
 }
