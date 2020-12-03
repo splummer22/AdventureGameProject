@@ -39,14 +39,14 @@ namespace AdventureGameProject
             sum = s.Next(1, 9) + info.Caffeine;
             if(sum >= 4)
             {
-                Breakroom n = new Breakroom();
+                Breakroom n = new Breakroom(info);
                 n.Show();
                 this.Hide();
             }
             else
             {
                 info.Energy = info.Energy - 2;
-                Breakroom n = new Breakroom();
+                Breakroom n = new Breakroom(info);
                 n.Show();
                 this.Hide();
             }
@@ -60,13 +60,13 @@ namespace AdventureGameProject
             sum = s.Next(1, 9) + info.Caffeine;
             if (sum >= 7)
             {
-                Breakroom n = new Breakroom();
+                Breakroom n = new Breakroom(info);
                 n.Show();
                 this.Hide();
             }
             else
             {
-                Breakroom n = new Breakroom();
+                Breakroom n = new Breakroom(info);
                 n.Show();
                 this.Hide();
             }
