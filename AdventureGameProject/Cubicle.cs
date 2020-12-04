@@ -38,13 +38,13 @@ namespace AdventureGameProject
             sum = s.Next(1, 9) + info.Caffeine;
             if (sum >= 7)
             {
-                Breakroom n = new Breakroom(info);
+                ConferenceRoom n = new ConferenceRoom(info);
                 n.Show();
                 this.Hide();
             }
             else
             {
-                Breakroom n = new Breakroom(info);
+                ConferenceRoom n = new ConferenceRoom(info);
                 n.Show();
                 this.Hide();
             }
