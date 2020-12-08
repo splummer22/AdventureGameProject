@@ -45,10 +45,17 @@ namespace AdventureGameProject
             }
             else
             {
-                info.Energy = info.Energy - 2;
-                Breakroom n = new Breakroom(info);
-                n.Show();
-                this.Hide();
+                info.Energy = info.Energy - 10;
+                if (info.Energy <= 0)
+                {
+                    LoseScreen x = new LoseScreen();
+                }
+                else
+                {
+                    Breakroom n = new Breakroom(info);
+                    n.Show();
+                    this.Hide();
+                }
             }
 
         }
@@ -66,9 +73,17 @@ namespace AdventureGameProject
             }
             else
             {
-                Breakroom n = new Breakroom(info);
-                n.Show();
-                this.Hide();
+                info.Energy = info.Energy - 2;
+                if (info.Energy <= 0)
+                {
+                    LoseScreen x = new LoseScreen();
+                }
+                else
+                {
+                    Breakroom n = new Breakroom(info);
+                    n.Show();
+                    this.Hide();
+                }
             }
         }
     }

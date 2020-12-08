@@ -44,9 +44,18 @@ namespace AdventureGameProject
             }
             else
             {
-                ConferenceRoom n = new ConferenceRoom(info);
-                n.Show();
-                this.Hide();
+                info.Energy = info.Energy - 2;
+
+                if (info.Energy <= 0)
+                {
+                    LoseScreen x = new LoseScreen();
+                }
+                else
+                {
+                    ConferenceRoom n = new ConferenceRoom(info);
+                    n.Show();
+                    this.Hide();
+                }
             }
         }
 
@@ -63,9 +72,18 @@ namespace AdventureGameProject
             }
             else
             {
-                ConferenceRoom n = new ConferenceRoom(info);
-                n.Show();
-                this.Hide();
+                info.Energy = info.Energy - 3;
+
+                if (info.Energy <= 0)
+                {
+                    LoseScreen x = new LoseScreen();
+                }
+                else
+                {
+                    ConferenceRoom n = new ConferenceRoom(info);
+                    n.Show();
+                    this.Hide();
+                }
             }
         }
     }
