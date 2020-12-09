@@ -13,9 +13,8 @@ namespace AdventureGameProject
         public int Adaptibility;
         public int Caffeine;
         public int Strength;
-        public string name;
         public Image picture;
         public int Energy;
-
+        //creates ints/string/image for character skills, pictures. Creates int for overall health (energy)
     }
 }

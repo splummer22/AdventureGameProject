@@ -38,8 +38,6 @@
             this.lblTypingSpeed = new System.Windows.Forms.Label();
             this.pbCharacter = new System.Windows.Forms.PictureBox();
             this.cbCharacterPicture = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbCharacter)).BeginInit();
             this.SuspendLayout();
@@ -143,9 +141,9 @@
             // 
             // pbCharacter
             // 
-            this.pbCharacter.Location = new System.Drawing.Point(283, 20);
+            this.pbCharacter.Location = new System.Drawing.Point(548, 47);
             this.pbCharacter.Name = "pbCharacter";
-            this.pbCharacter.Size = new System.Drawing.Size(159, 158);
+            this.pbCharacter.Size = new System.Drawing.Size(210, 214);
             this.pbCharacter.TabIndex = 8;
             this.pbCharacter.TabStop = false;
             // 
@@ -157,33 +155,16 @@
             "Tuxedo Tom",
             "Casual Cameron",
             "Notebook Nancy"});
-            this.cbCharacterPicture.Location = new System.Drawing.Point(478, 20);
+            this.cbCharacterPicture.Location = new System.Drawing.Point(637, 20);
             this.cbCharacterPicture.Name = "cbCharacterPicture";
             this.cbCharacterPicture.Size = new System.Drawing.Size(121, 21);
             this.cbCharacterPicture.TabIndex = 9;
             this.cbCharacterPicture.SelectedIndexChanged += new System.EventHandler(this.cbCharacterPicture_SelectedIndexChanged);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(103, 307);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 13);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Name";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(148, 304);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(311, 20);
-            this.textBox1.TabIndex = 11;
-            // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(598, 303);
+            this.button1.Location = new System.Drawing.Point(656, 373);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(102, 37);
             this.button1.TabIndex = 12;
@@ -198,8 +179,6 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.cbCharacterPicture);
             this.Controls.Add(this.pbCharacter);
             this.Controls.Add(this.lblTypingSpeed);
@@ -212,7 +191,6 @@
             this.Controls.Add(this.cbCaffeine);
             this.Name = "CharacterCreation";
             this.Text = "CharacterCreation";
-            this.Load += new System.EventHandler(this.CharacterCreation_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbCharacter)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -231,8 +209,6 @@
         private System.Windows.Forms.Label lblTypingSpeed;
         private System.Windows.Forms.PictureBox pbCharacter;
         private System.Windows.Forms.ComboBox cbCharacterPicture;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
     }
 }
