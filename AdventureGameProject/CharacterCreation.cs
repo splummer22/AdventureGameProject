@@ -16,7 +16,7 @@ namespace AdventureGameProject
         public int Adaptibility;
         public int Caffeine;
         public int PowerPointSkills;
-        public string name;
+        //creates ints/string for character skills
 
         CharacterClass Characters;
 
@@ -24,6 +24,7 @@ namespace AdventureGameProject
         {
             InitializeComponent();
             Characters = new CharacterClass();
+            //calls a new version of CharacterClass, which contains character skills and image, and overall health (energy)
         }
 
         private void cbCaffeine_SelectedIndexChanged(object sender, EventArgs e)
@@ -32,6 +33,7 @@ namespace AdventureGameProject
             cbAdaptibility.Items.Remove(cbCaffeine.Text);
             cbPowerPointSkills.Items.Remove(cbCaffeine.Text);
             cbTypingSpeed.Items.Remove(cbCaffeine.Text);
+            //converts number choice to int, removes it from options of other 
         }
 
         private void cbAdaptibility_SelectedIndexChanged(object sender, EventArgs e)
@@ -40,6 +42,7 @@ namespace AdventureGameProject
             cbCaffeine.Items.Remove(cbAdaptibility.Text);
             cbPowerPointSkills.Items.Remove(cbAdaptibility.Text);
             cbTypingSpeed.Items.Remove(cbAdaptibility.Text);
+            //converts number choice to int, removes it from options of other
         }
 
         private void cbPowerPointSkills_SelectedIndexChanged(object sender, EventArgs e)
@@ -48,6 +51,7 @@ namespace AdventureGameProject
             cbCaffeine.Items.Remove(cbPowerPointSkills.Text);
             cbAdaptibility.Items.Remove(cbPowerPointSkills.Text);
             cbTypingSpeed.Items.Remove(cbPowerPointSkills.Text);
+            //converts number choice to int, removes it from options of other
         }
 
         private void cbTypingSpeed_SelectedIndexChanged(object sender, EventArgs e)
@@ -56,6 +60,16 @@ namespace AdventureGameProject
             cbCaffeine.Items.Remove(cbTypingSpeed.Text);
             cbPowerPointSkills.Items.Remove(cbTypingSpeed.Text);
             cbAdaptibility.Items.Remove(cbTypingSpeed.Text);
+            //converts number choice to int, removes it from options of other
+        }
+        
+        private void cbPowerPointSkills_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            PowerPointSkills = Convert.ToInt32(cbPowerPointSkills.Text);
+            cbCaffeine.Items.Remove(cbPowerPointSkills.Text);
+            cbAdaptibility.Items.Remove(cbPowerPointSkills.Text);
+            cbTypingSpeed.Items.Remove(cbPowerPointSkills.Text);
+            // //converts number choice to int, removes it from options of other
         }
 
         private void cbCharacterPicture_SelectedIndexChanged(object sender, EventArgs e)
@@ -78,9 +92,9 @@ namespace AdventureGameProject
             }
 
             pbCharacter.SizeMode = PictureBoxSizeMode.StretchImage;
-
+            //connects drop down for character to character images for selection
         }
-
+        
         private void button1_Click(object sender, EventArgs e)
         {
            if(TypingSpeed != 0 && Caffeine != 0 && Adaptibility != 0 && cbCharacterPicture.Text != "")
@@ -90,7 +104,6 @@ namespace AdventureGameProject
                 Characters.Adaptibility = Adaptibility;
                 Characters.Caffeine = Caffeine;
                 Characters.Strength = PowerPointSkills;
-                Characters.name = name;
                 Characters.picture = pbCharacter.Image;
                 Characters.Energy = 10;
 
@@ -103,20 +116,8 @@ namespace AdventureGameProject
             {
                 MessageBox.Show("Please select an option for each category");
             }
-           
+           //Requires user to select an option from each drop down in order to continue, message if not
         }
 
-        private void CharacterCreation_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cbPowerPointSkills_SelectedIndexChanged_1(object sender, EventArgs e)
-        {
-            PowerPointSkills = Convert.ToInt32(cbPowerPointSkills.Text);
-            cbCaffeine.Items.Remove(cbPowerPointSkills.Text);
-            cbAdaptibility.Items.Remove(cbPowerPointSkills.Text);
-            cbTypingSpeed.Items.Remove(cbPowerPointSkills.Text);
-        }
     }
 }

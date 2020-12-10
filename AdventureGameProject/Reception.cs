@@ -39,6 +39,8 @@ namespace AdventureGameProject
             sum = s.Next(1, 9) + info.Caffeine;
             if(sum >= 4)
             {
+                MessageBox.Show("Success!");
+                
                 Breakroom n = new Breakroom(info);
                 n.Show();
                 this.Hide();
@@ -54,6 +56,8 @@ namespace AdventureGameProject
                 }
                 else
                 {
+                    MessageBox.Show("The Receptionist is in a bad mood.\nThe cup of coffee has been thrown in your face.");
+
                     Breakroom n = new Breakroom(info);
                     n.Show();
                     this.Hide();
@@ -69,6 +73,8 @@ namespace AdventureGameProject
             sum = s.Next(1, 9) + info.Caffeine;
             if (sum >= 7)
             {
+                MessageBox.Show("Success!");
+                
                 Breakroom n = new Breakroom(info);
                 n.Show();
                 this.Hide();
@@ -84,6 +90,8 @@ namespace AdventureGameProject
                 }
                 else
                 {
+                    MessageBox.Show("You overestimated your stealth. \n The receptionist lets the security dog loose, but you only loose one finger, so you continue on.");
+                    
                     Breakroom n = new Breakroom(info);
                     n.Show();
                     this.Hide();
