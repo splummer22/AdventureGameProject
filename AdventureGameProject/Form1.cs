@@ -19,7 +19,8 @@ namespace AdventureGameProject
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            pictureBox1.Image = Properties.Resources.Office1;
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

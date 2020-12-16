@@ -102,40 +102,40 @@
             // lblCaffeine
             // 
             this.lblCaffeine.AutoSize = true;
-            this.lblCaffeine.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCaffeine.Location = new System.Drawing.Point(227, 441);
+            this.lblCaffeine.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCaffeine.Location = new System.Drawing.Point(290, 441);
             this.lblCaffeine.Name = "lblCaffeine";
-            this.lblCaffeine.Size = new System.Drawing.Size(151, 13);
+            this.lblCaffeine.Size = new System.Drawing.Size(77, 20);
             this.lblCaffeine.TabIndex = 4;
-            this.lblCaffeine.Text = "Caffeine Level/Efficiency";
+            this.lblCaffeine.Text = "Caffeine";
             // 
             // lblAdaptibility
             // 
             this.lblAdaptibility.AutoSize = true;
-            this.lblAdaptibility.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdaptibility.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAdaptibility.Location = new System.Drawing.Point(488, 441);
             this.lblAdaptibility.Name = "lblAdaptibility";
-            this.lblAdaptibility.Size = new System.Drawing.Size(66, 13);
+            this.lblAdaptibility.Size = new System.Drawing.Size(93, 20);
             this.lblAdaptibility.TabIndex = 5;
             this.lblAdaptibility.Text = "Adaptiblity";
             // 
             // lblPowerPointSkills
             // 
             this.lblPowerPointSkills.AutoSize = true;
-            this.lblPowerPointSkills.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPowerPointSkills.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPowerPointSkills.Location = new System.Drawing.Point(668, 441);
             this.lblPowerPointSkills.Name = "lblPowerPointSkills";
-            this.lblPowerPointSkills.Size = new System.Drawing.Size(105, 13);
+            this.lblPowerPointSkills.Size = new System.Drawing.Size(146, 20);
             this.lblPowerPointSkills.TabIndex = 6;
             this.lblPowerPointSkills.Text = "PowerPoint Skills";
             // 
             // lblTypingSpeed
             // 
             this.lblTypingSpeed.AutoSize = true;
-            this.lblTypingSpeed.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTypingSpeed.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTypingSpeed.Location = new System.Drawing.Point(67, 441);
             this.lblTypingSpeed.Name = "lblTypingSpeed";
-            this.lblTypingSpeed.Size = new System.Drawing.Size(85, 13);
+            this.lblTypingSpeed.Size = new System.Drawing.Size(118, 20);
             this.lblTypingSpeed.TabIndex = 7;
             this.lblTypingSpeed.Text = "Typing Speed";
             // 

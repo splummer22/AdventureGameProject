@@ -16,5 +16,10 @@ namespace AdventureGameProject
         {
             InitializeComponent();
         }
+
+        private void WinScreen_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
