@@ -12,14 +12,17 @@ namespace AdventureGameProject
 {
     public partial class WinScreen : Form
     {
-        public WinScreen()
+        CharacterClass info;
+
+        public WinScreen(CharacterClass c)
         {
             InitializeComponent();
+            info = c;
         }
 
         private void WinScreen_Load(object sender, EventArgs e)
         {
-
+            label1.Text = "" + (info.Energy * 5);
         }
     }
 }

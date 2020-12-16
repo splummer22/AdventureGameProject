@@ -21,11 +21,7 @@ namespace AdventureGameProject
         {
             pictureBox1.Image = Properties.Resources.Office1;
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            pictureBox1.Image = Properties.Resources.Office1;
+            //Background picture of office building
         }
 
         private void lblStart_Click_1(object sender, EventArgs e)

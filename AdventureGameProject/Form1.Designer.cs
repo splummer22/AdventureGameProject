@@ -39,15 +39,16 @@
             // 
             this.pictureBox1.Location = new System.Drawing.Point(-2, -1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(986, 566);
+            this.pictureBox1.Size = new System.Drawing.Size(992, 566);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.PaleTurquoise;
             this.label2.Font = new System.Drawing.Font("Myanmar Text", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.label2.Location = new System.Drawing.Point(405, 217);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(186, 37);
@@ -57,24 +58,27 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.LightGreen;
+            this.label1.BackColor = System.Drawing.Color.PaleGreen;
             this.label1.Font = new System.Drawing.Font("Bahnschrift Condensed", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.label1.Location = new System.Drawing.Point(345, 134);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(294, 58);
+            this.label1.Size = new System.Drawing.Size(291, 58);
             this.label1.TabIndex = 4;
             this.label1.Text = "Office Adventure";
             // 
             // lblStart
             // 
+            this.lblStart.BackColor = System.Drawing.Color.MediumTurquoise;
             this.lblStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStart.ForeColor = System.Drawing.Color.Black;
             this.lblStart.Location = new System.Drawing.Point(400, 387);
             this.lblStart.Name = "lblStart";
             this.lblStart.Size = new System.Drawing.Size(191, 40);
             this.lblStart.TabIndex = 3;
             this.lblStart.Text = "Start";
-            this.lblStart.UseVisualStyleBackColor = true;
+            this.lblStart.UseVisualStyleBackColor = false;
             this.lblStart.Click += new System.EventHandler(this.lblStart_Click_1);
             // 
             // Form1

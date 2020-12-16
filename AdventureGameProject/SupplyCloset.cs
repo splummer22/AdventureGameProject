@@ -18,17 +18,20 @@ namespace AdventureGameProject
         {
             InitializeComponent();
             info = c;
+            //calls CharacterClass as c, puts the information into info
         }
 
         private void SupplyCloset_Load(object sender, EventArgs e)
         {
             pbSupplyCloset.Image = Properties.Resources.SupplyCloset;
             pbSupplyCloset.SizeMode = PictureBoxSizeMode.StretchImage;
+            //Supply closet pic
 
             lblTypingSpeed.Text = "" + info.TypingSpeed;
             lblAdaptability.Text = "" + info.Adaptibility;
             lblCaffiene.Text = "" + info.Caffeine;
             lblPowerPointSkills.Text = "" + info.Strength;
+            //puts stats in stats box
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -36,7 +39,7 @@ namespace AdventureGameProject
             Random s = new Random();
             int sum;
             sum = s.Next(1, 9) + info.Caffeine;
-            if (sum >= 7)
+            if (sum >= 8)
             {
                 MessageBox.Show("Success");
                 
@@ -59,6 +62,7 @@ namespace AdventureGameProject
                     this.Hide();
                 }     
             }
+            //what happens when button 1 is clicked
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -66,7 +70,7 @@ namespace AdventureGameProject
             Random s = new Random();
             int sum;
             sum = s.Next(1, 9) + info.Caffeine;
-            if (sum >= 6)
+            if (sum >= 7)
             {
                 MessageBox.Show("Success");
                 
@@ -89,6 +93,7 @@ namespace AdventureGameProject
                     this.Hide();
                 }
             }
+            //what happens when button 2 is clicked
         }
     }
 }

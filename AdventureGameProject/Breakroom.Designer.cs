@@ -49,49 +49,53 @@
             // 
             // pbBreakroom
             // 
-            this.pbBreakroom.Location = new System.Drawing.Point(402, 12);
+            this.pbBreakroom.Location = new System.Drawing.Point(402, -2);
             this.pbBreakroom.Name = "pbBreakroom";
-            this.pbBreakroom.Size = new System.Drawing.Size(581, 547);
+            this.pbBreakroom.Size = new System.Drawing.Size(584, 566);
             this.pbBreakroom.TabIndex = 8;
             this.pbBreakroom.TabStop = false;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(12, 340);
+            this.button2.BackColor = System.Drawing.Color.OrangeRed;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(17, 335);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(75, 36);
             this.button2.TabIndex = 25;
             this.button2.Text = "Brew";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(17, 250);
+            this.button1.BackColor = System.Drawing.Color.MediumSpringGreen;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(17, 242);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 36);
             this.button1.TabIndex = 24;
             this.button1.Text = "Search";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(14, 297);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(146, 16);
+            this.label6.Size = new System.Drawing.Size(166, 18);
             this.label6.TabIndex = 23;
             this.label6.Text = "Brew a pot of hot coffee";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(14, 206);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(198, 16);
+            this.label5.Size = new System.Drawing.Size(220, 18);
             this.label5.TabIndex = 22;
             this.label5.Text = "Search the fridge for Iced Coffee";
             // 
@@ -187,10 +191,10 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 93);
+            this.groupBox1.Size = new System.Drawing.Size(311, 93);
             this.groupBox1.TabIndex = 20;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "You enter the breakroom, hoping for a cup of coffee to wake you up.";
@@ -199,7 +203,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);

@@ -25,12 +25,13 @@ namespace AdventureGameProject
         {
             pbReception.Image = Properties.Resources.reception;
             pbReception.SizeMode = PictureBoxSizeMode.StretchImage;
+            //reception desk pic
 
             lblTypingSpeed.Text = "" + info.TypingSpeed;
             lblAdaptability.Text = "" + info.Adaptibility;
             lblCaffiene.Text = "" + info.Caffeine;
             lblPowerPointSkills.Text = "" + info.Strength;
-            
+            //puts stats in stats box
         }
 
         private void button1_Click(object sender, EventArgs e)

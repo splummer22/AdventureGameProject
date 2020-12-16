@@ -49,10 +49,11 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.Color.Black;
             this.groupBox1.Location = new System.Drawing.Point(27, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 91);
+            this.groupBox1.Size = new System.Drawing.Size(320, 151);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "You enter Reception. The receptionist stands behind the desk, eying you suspiciou" +
@@ -69,7 +70,7 @@
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(27, 278);
+            this.groupBox2.Location = new System.Drawing.Point(12, 389);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(200, 160);
             this.groupBox2.TabIndex = 1;
@@ -150,38 +151,39 @@
             // 
             // pbReception
             // 
-            this.pbReception.Location = new System.Drawing.Point(395, 12);
+            this.pbReception.Location = new System.Drawing.Point(425, 1);
             this.pbReception.Name = "pbReception";
-            this.pbReception.Size = new System.Drawing.Size(393, 353);
+            this.pbReception.Size = new System.Drawing.Size(560, 562);
             this.pbReception.TabIndex = 2;
             this.pbReception.TabStop = false;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(24, 144);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(9, 200);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(365, 16);
+            this.label5.Size = new System.Drawing.Size(410, 18);
             this.label5.TabIndex = 3;
             this.label5.Text = "Greet the Receptionist with a warm smille and a cup of coffee";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(24, 214);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(12, 306);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(205, 16);
+            this.label6.Size = new System.Drawing.Size(225, 18);
             this.label6.TabIndex = 4;
             this.label6.Text = "Sneak around the reception desk";
             // 
             // Greet
             // 
-            this.Greet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.Greet.Location = new System.Drawing.Point(27, 163);
+            this.Greet.BackColor = System.Drawing.Color.LightGreen;
+            this.Greet.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Greet.Location = new System.Drawing.Point(12, 243);
             this.Greet.Name = "Greet";
-            this.Greet.Size = new System.Drawing.Size(75, 23);
+            this.Greet.Size = new System.Drawing.Size(75, 33);
             this.Greet.TabIndex = 5;
             this.Greet.Text = "Greet";
             this.Greet.UseVisualStyleBackColor = false;
@@ -189,10 +191,11 @@
             // 
             // Sneak
             // 
-            this.Sneak.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.Sneak.Location = new System.Drawing.Point(27, 233);
+            this.Sneak.BackColor = System.Drawing.Color.Aquamarine;
+            this.Sneak.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Sneak.Location = new System.Drawing.Point(12, 339);
             this.Sneak.Name = "Sneak";
-            this.Sneak.Size = new System.Drawing.Size(75, 23);
+            this.Sneak.Size = new System.Drawing.Size(75, 33);
             this.Sneak.TabIndex = 6;
             this.Sneak.Text = "Sneak";
             this.Sneak.UseVisualStyleBackColor = false;
@@ -202,7 +205,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.BackColor = System.Drawing.Color.Khaki;
             this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.Sneak);
             this.Controls.Add(this.Greet);

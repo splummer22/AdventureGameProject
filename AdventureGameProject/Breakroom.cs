@@ -16,14 +16,21 @@ namespace AdventureGameProject
         public Breakroom(CharacterClass c)
         {
             InitializeComponent();
-
             info = c;
+            //calls CharacterClass as c, puts the information into info
         }
 
         private void Breakroom_Load(object sender, EventArgs e)
         {
             pbBreakroom.Image = Properties.Resources.breakroom;
             pbBreakroom.SizeMode = PictureBoxSizeMode.StretchImage;
+            //Breakroom pic
+
+            lblTypingSpeed.Text = "" + info.TypingSpeed;
+            lblAdaptability.Text = "" + info.Adaptibility;
+            lblCaffiene.Text = "" + info.Caffeine;
+            lblPowerPointSkills.Text = "" + info.Strength;
+            //puts stats in stats box
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -33,6 +40,7 @@ namespace AdventureGameProject
             SupplyCloset n = new SupplyCloset(info);
             n.Show();
             this.Hide();
+            //what happens when button 1 is clicked
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -40,7 +48,7 @@ namespace AdventureGameProject
             Random s = new Random();
             int sum;
             sum = s.Next(1, 9) + info.Caffeine;
-            if (sum >= 5)
+            if (sum >= 7)
             {
                 MessageBox.Show("Success");
                 
@@ -66,6 +74,7 @@ namespace AdventureGameProject
                     this.Hide();
                 }
             }
+            //what happens when button 2 is clicked
         }
     }
 }

@@ -51,7 +51,7 @@
             "2",
             "3",
             "4"});
-            this.cbCaffeine.Location = new System.Drawing.Point(257, 478);
+            this.cbCaffeine.Location = new System.Drawing.Point(103, 232);
             this.cbCaffeine.Name = "cbCaffeine";
             this.cbCaffeine.Size = new System.Drawing.Size(121, 21);
             this.cbCaffeine.TabIndex = 0;
@@ -65,7 +65,7 @@
             "2",
             "3",
             "4"});
-            this.cbTypingSpeed.Location = new System.Drawing.Point(52, 478);
+            this.cbTypingSpeed.Location = new System.Drawing.Point(103, 111);
             this.cbTypingSpeed.Name = "cbTypingSpeed";
             this.cbTypingSpeed.Size = new System.Drawing.Size(121, 21);
             this.cbTypingSpeed.TabIndex = 1;
@@ -79,7 +79,7 @@
             "2",
             "3",
             "4"});
-            this.cbPowerPointSkills.Location = new System.Drawing.Point(671, 478);
+            this.cbPowerPointSkills.Location = new System.Drawing.Point(761, 232);
             this.cbPowerPointSkills.Name = "cbPowerPointSkills";
             this.cbPowerPointSkills.Size = new System.Drawing.Size(121, 21);
             this.cbPowerPointSkills.TabIndex = 2;
@@ -93,7 +93,7 @@
             "2",
             "3",
             "4"});
-            this.cbAdaptibility.Location = new System.Drawing.Point(461, 478);
+            this.cbAdaptibility.Location = new System.Drawing.Point(761, 111);
             this.cbAdaptibility.Name = "cbAdaptibility";
             this.cbAdaptibility.Size = new System.Drawing.Size(121, 21);
             this.cbAdaptibility.TabIndex = 3;
@@ -103,7 +103,7 @@
             // 
             this.lblCaffeine.AutoSize = true;
             this.lblCaffeine.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCaffeine.Location = new System.Drawing.Point(290, 441);
+            this.lblCaffeine.Location = new System.Drawing.Point(119, 186);
             this.lblCaffeine.Name = "lblCaffeine";
             this.lblCaffeine.Size = new System.Drawing.Size(77, 20);
             this.lblCaffeine.TabIndex = 4;
@@ -113,7 +113,7 @@
             // 
             this.lblAdaptibility.AutoSize = true;
             this.lblAdaptibility.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAdaptibility.Location = new System.Drawing.Point(488, 441);
+            this.lblAdaptibility.Location = new System.Drawing.Point(774, 70);
             this.lblAdaptibility.Name = "lblAdaptibility";
             this.lblAdaptibility.Size = new System.Drawing.Size(93, 20);
             this.lblAdaptibility.TabIndex = 5;
@@ -123,7 +123,7 @@
             // 
             this.lblPowerPointSkills.AutoSize = true;
             this.lblPowerPointSkills.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPowerPointSkills.Location = new System.Drawing.Point(668, 441);
+            this.lblPowerPointSkills.Location = new System.Drawing.Point(748, 186);
             this.lblPowerPointSkills.Name = "lblPowerPointSkills";
             this.lblPowerPointSkills.Size = new System.Drawing.Size(146, 20);
             this.lblPowerPointSkills.TabIndex = 6;
@@ -133,7 +133,7 @@
             // 
             this.lblTypingSpeed.AutoSize = true;
             this.lblTypingSpeed.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTypingSpeed.Location = new System.Drawing.Point(67, 441);
+            this.lblTypingSpeed.Location = new System.Drawing.Point(106, 70);
             this.lblTypingSpeed.Name = "lblTypingSpeed";
             this.lblTypingSpeed.Size = new System.Drawing.Size(118, 20);
             this.lblTypingSpeed.TabIndex = 7;
@@ -141,9 +141,9 @@
             // 
             // pbCharacter
             // 
-            this.pbCharacter.Location = new System.Drawing.Point(341, 70);
+            this.pbCharacter.Location = new System.Drawing.Point(309, 70);
             this.pbCharacter.Name = "pbCharacter";
-            this.pbCharacter.Size = new System.Drawing.Size(314, 307);
+            this.pbCharacter.Size = new System.Drawing.Size(378, 347);
             this.pbCharacter.TabIndex = 8;
             this.pbCharacter.TabStop = false;
             // 
@@ -155,7 +155,7 @@
             "Tuxedo Tom",
             "Casual Cameron",
             "Notebook Nancy"});
-            this.cbCharacterPicture.Location = new System.Drawing.Point(433, 43);
+            this.cbCharacterPicture.Location = new System.Drawing.Point(440, 33);
             this.cbCharacterPicture.Name = "cbCharacterPicture";
             this.cbCharacterPicture.Size = new System.Drawing.Size(121, 21);
             this.cbCharacterPicture.TabIndex = 9;
@@ -163,10 +163,11 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(849, 478);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(340, 451);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 37);
+            this.button1.Size = new System.Drawing.Size(314, 47);
             this.button1.TabIndex = 12;
             this.button1.Text = "Start Game";
             this.button1.UseVisualStyleBackColor = true;

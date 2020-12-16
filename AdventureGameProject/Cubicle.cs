@@ -18,17 +18,20 @@ namespace AdventureGameProject
         {
             InitializeComponent();
             info = c;
+            //calls CharacterClass as c, puts the information into info
         }
 
         private void Cubicle_Load(object sender, EventArgs e)
         {
             pbCubicle.Image = Properties.Resources.Cubicle;
             pbCubicle.SizeMode = PictureBoxSizeMode.StretchImage;
+            //cubicle pic
 
             lblTypingSpeed.Text = "" + info.TypingSpeed;
             lblAdaptability.Text = "" + info.Adaptibility;
             lblCaffiene.Text = "" + info.Caffeine;
             lblPowerPointSkills.Text = "" + info.Strength;
+            //puts stats in stats box
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -61,6 +64,7 @@ namespace AdventureGameProject
                     this.Hide();
                 }
             }
+            //what happens if button 1 is clicked
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -93,6 +97,7 @@ namespace AdventureGameProject
                     this.Hide();
                 }
             }
+            //what happens when button 2 is clicked
         }
     }
 }
