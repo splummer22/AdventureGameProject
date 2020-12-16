@@ -118,14 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="breakroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\breakroom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Conference_Room" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Conference-Room.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SupplyCloset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SupplyCloset.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reception" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reception.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3rdCharacter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3rdCharacter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Cubicle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cubicle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4thCharacter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4thCharacter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FirstCharacter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FirstCharacter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,19 +142,13 @@
   <data name="Office" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Office.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="reception" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\reception.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SupplyCloset" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SupplyCloset.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="breakroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\breakroom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_2ndCharacter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2ndCharacter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_3rdCharacter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3rdCharacter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_4thCharacter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4thCharacter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Office1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Office.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

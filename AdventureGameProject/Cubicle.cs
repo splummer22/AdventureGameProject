@@ -38,6 +38,8 @@ namespace AdventureGameProject
             sum = s.Next(1, 9) + info.Caffeine;
             if (sum >= 7)
             {
+                MessageBox.Show("Success");
+                
                 ConferenceRoom n = new ConferenceRoom(info);
                 n.Show();
                 this.Hide();
@@ -52,6 +54,8 @@ namespace AdventureGameProject
                 }
                 else
                 {
+                    MessageBox.Show("Your keyboard malfunctions.\n\nYou are forced to include many grammatical errors in your presentation.");
+                    
                     ConferenceRoom n = new ConferenceRoom(info);
                     n.Show();
                     this.Hide();
@@ -66,6 +70,8 @@ namespace AdventureGameProject
             sum = s.Next(1, 9) + info.Caffeine;
             if (sum >= 8)
             {
+                MessageBox.Show("Success");
+                
                 ConferenceRoom n = new ConferenceRoom(info);
                 n.Show();
                 this.Hide();
@@ -80,6 +86,8 @@ namespace AdventureGameProject
                 }
                 else
                 {
+                    MessageBox.Show("Your fingers are fatigued.\n\nYour proposal is badly typed and you do not have time to finish it.");
+                    
                     ConferenceRoom n = new ConferenceRoom(info);
                     n.Show();
                     this.Hide();

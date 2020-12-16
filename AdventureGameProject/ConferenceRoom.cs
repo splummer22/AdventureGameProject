@@ -45,11 +45,17 @@ namespace AdventureGameProject
             sum = s.Next(1, 9) + info.Caffeine;
             if (sum >= 10)
             {
+                MessageBox.Show("Success");
 
+                WinScreen x = new WinScreen();
+                x.Show();
+                this.Hide();
             }
             else
             {
-
+                LoseScreen x = new LoseScreen();
+                x.Show();
+                this.Hide();
             }
         }
 
@@ -60,11 +66,17 @@ namespace AdventureGameProject
             sum = s.Next(1, 9) + info.Caffeine;
             if (sum >= 13)
             {
+                MessageBox.Show("Success!");
 
+                WinScreen x = new WinScreen();
+                x.Show();
+                this.Hide();
             }
             else
             {
-
+                LoseScreen x = new LoseScreen();
+                x.Show();
+                this.Hide();
             }
         }
     }

@@ -97,7 +97,7 @@ namespace AdventureGameProject
         
         private void button1_Click(object sender, EventArgs e)
         {
-           if(TypingSpeed != 0 && Caffeine != 0 && Adaptibility != 0 && cbCharacterPicture.Text != "")
+           if(TypingSpeed != 0 && Caffeine != 0 && Adaptibility != 0 && PowerPointSkills != 0 && cbCharacterPicture.Text != "")
                 {
                 
                 Characters.TypingSpeed = TypingSpeed;
@@ -119,5 +119,9 @@ namespace AdventureGameProject
            //Requires user to select an option from each drop down in order to continue, message if not
         }
 
+        private void CharacterCreation_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

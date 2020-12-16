@@ -18,6 +18,7 @@ namespace AdventureGameProject
         {
             InitializeComponent();
             info = c;
+            //calls CharacterClass as c, puts the information into info
         }
 
         private void Reception_Load(object sender, EventArgs e)
@@ -29,7 +30,7 @@ namespace AdventureGameProject
             lblAdaptability.Text = "" + info.Adaptibility;
             lblCaffiene.Text = "" + info.Caffeine;
             lblPowerPointSkills.Text = "" + info.Strength;
-
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -63,7 +64,7 @@ namespace AdventureGameProject
                     this.Hide();
                 }
             }
-
+            //determines what happens when button1 is clicked 
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -90,13 +91,14 @@ namespace AdventureGameProject
                 }
                 else
                 {
-                    MessageBox.Show("You overestimated your stealth. \n The receptionist lets the security dog loose, but you only loose one finger, so you continue on.");
+                    MessageBox.Show("You overestimated your stealth.\n\nThe receptionist lets the security dog loose, but you only loose one finger, so you continue on.");
                     
                     Breakroom n = new Breakroom(info);
                     n.Show();
                     this.Hide();
                 }
             }
+            //determines what happens when button2 is clicked
         }
     }
 }

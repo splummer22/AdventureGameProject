@@ -51,7 +51,7 @@
             "2",
             "3",
             "4"});
-            this.cbCaffeine.Location = new System.Drawing.Point(106, 36);
+            this.cbCaffeine.Location = new System.Drawing.Point(257, 478);
             this.cbCaffeine.Name = "cbCaffeine";
             this.cbCaffeine.Size = new System.Drawing.Size(121, 21);
             this.cbCaffeine.TabIndex = 0;
@@ -65,7 +65,7 @@
             "2",
             "3",
             "4"});
-            this.cbTypingSpeed.Location = new System.Drawing.Point(106, 217);
+            this.cbTypingSpeed.Location = new System.Drawing.Point(52, 478);
             this.cbTypingSpeed.Name = "cbTypingSpeed";
             this.cbTypingSpeed.Size = new System.Drawing.Size(121, 21);
             this.cbTypingSpeed.TabIndex = 1;
@@ -79,7 +79,7 @@
             "2",
             "3",
             "4"});
-            this.cbPowerPointSkills.Location = new System.Drawing.Point(106, 157);
+            this.cbPowerPointSkills.Location = new System.Drawing.Point(671, 478);
             this.cbPowerPointSkills.Name = "cbPowerPointSkills";
             this.cbPowerPointSkills.Size = new System.Drawing.Size(121, 21);
             this.cbPowerPointSkills.TabIndex = 2;
@@ -93,7 +93,7 @@
             "2",
             "3",
             "4"});
-            this.cbAdaptibility.Location = new System.Drawing.Point(106, 98);
+            this.cbAdaptibility.Location = new System.Drawing.Point(461, 478);
             this.cbAdaptibility.Name = "cbAdaptibility";
             this.cbAdaptibility.Size = new System.Drawing.Size(121, 21);
             this.cbAdaptibility.TabIndex = 3;
@@ -103,7 +103,7 @@
             // 
             this.lblCaffeine.AutoSize = true;
             this.lblCaffeine.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCaffeine.Location = new System.Drawing.Point(107, 20);
+            this.lblCaffeine.Location = new System.Drawing.Point(227, 441);
             this.lblCaffeine.Name = "lblCaffeine";
             this.lblCaffeine.Size = new System.Drawing.Size(151, 13);
             this.lblCaffeine.TabIndex = 4;
@@ -113,7 +113,7 @@
             // 
             this.lblAdaptibility.AutoSize = true;
             this.lblAdaptibility.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAdaptibility.Location = new System.Drawing.Point(107, 82);
+            this.lblAdaptibility.Location = new System.Drawing.Point(488, 441);
             this.lblAdaptibility.Name = "lblAdaptibility";
             this.lblAdaptibility.Size = new System.Drawing.Size(66, 13);
             this.lblAdaptibility.TabIndex = 5;
@@ -123,7 +123,7 @@
             // 
             this.lblPowerPointSkills.AutoSize = true;
             this.lblPowerPointSkills.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPowerPointSkills.Location = new System.Drawing.Point(107, 141);
+            this.lblPowerPointSkills.Location = new System.Drawing.Point(668, 441);
             this.lblPowerPointSkills.Name = "lblPowerPointSkills";
             this.lblPowerPointSkills.Size = new System.Drawing.Size(105, 13);
             this.lblPowerPointSkills.TabIndex = 6;
@@ -133,7 +133,7 @@
             // 
             this.lblTypingSpeed.AutoSize = true;
             this.lblTypingSpeed.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTypingSpeed.Location = new System.Drawing.Point(103, 201);
+            this.lblTypingSpeed.Location = new System.Drawing.Point(67, 441);
             this.lblTypingSpeed.Name = "lblTypingSpeed";
             this.lblTypingSpeed.Size = new System.Drawing.Size(85, 13);
             this.lblTypingSpeed.TabIndex = 7;
@@ -141,9 +141,9 @@
             // 
             // pbCharacter
             // 
-            this.pbCharacter.Location = new System.Drawing.Point(548, 47);
+            this.pbCharacter.Location = new System.Drawing.Point(341, 70);
             this.pbCharacter.Name = "pbCharacter";
-            this.pbCharacter.Size = new System.Drawing.Size(210, 214);
+            this.pbCharacter.Size = new System.Drawing.Size(314, 307);
             this.pbCharacter.TabIndex = 8;
             this.pbCharacter.TabStop = false;
             // 
@@ -155,7 +155,7 @@
             "Tuxedo Tom",
             "Casual Cameron",
             "Notebook Nancy"});
-            this.cbCharacterPicture.Location = new System.Drawing.Point(637, 20);
+            this.cbCharacterPicture.Location = new System.Drawing.Point(433, 43);
             this.cbCharacterPicture.Name = "cbCharacterPicture";
             this.cbCharacterPicture.Size = new System.Drawing.Size(121, 21);
             this.cbCharacterPicture.TabIndex = 9;
@@ -164,7 +164,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(656, 373);
+            this.button1.Location = new System.Drawing.Point(849, 478);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(102, 37);
             this.button1.TabIndex = 12;
@@ -176,8 +176,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cbCharacterPicture);
             this.Controls.Add(this.pbCharacter);
@@ -191,6 +191,7 @@
             this.Controls.Add(this.cbCaffeine);
             this.Name = "CharacterCreation";
             this.Text = "CharacterCreation";
+            this.Load += new System.EventHandler(this.CharacterCreation_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbCharacter)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

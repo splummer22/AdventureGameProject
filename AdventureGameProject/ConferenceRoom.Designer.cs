@@ -53,14 +53,14 @@
             // 
             this.pbConferenceRoom.Location = new System.Drawing.Point(329, 12);
             this.pbConferenceRoom.Name = "pbConferenceRoom";
-            this.pbConferenceRoom.Size = new System.Drawing.Size(459, 387);
+            this.pbConferenceRoom.Size = new System.Drawing.Size(653, 549);
             this.pbConferenceRoom.TabIndex = 5;
             this.pbConferenceRoom.TabStop = false;
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button2.Location = new System.Drawing.Point(12, 247);
+            this.button2.Location = new System.Drawing.Point(12, 347);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 19;
@@ -71,7 +71,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button1.Location = new System.Drawing.Point(12, 193);
+            this.button1.Location = new System.Drawing.Point(12, 287);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 18;
@@ -83,7 +83,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(9, 228);
+            this.label6.Location = new System.Drawing.Point(9, 328);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(237, 16);
             this.label6.TabIndex = 17;
@@ -93,7 +93,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(9, 174);
+            this.label5.Location = new System.Drawing.Point(9, 256);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(314, 16);
             this.label5.TabIndex = 16;
@@ -110,7 +110,7 @@
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(12, 278);
+            this.groupBox2.Location = new System.Drawing.Point(12, 389);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(200, 160);
             this.groupBox2.TabIndex = 15;
@@ -191,19 +191,19 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(261, 87);
+            this.groupBox1.Size = new System.Drawing.Size(311, 141);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "You enter the Conference Room. It\'s time to tell the Boss you big plans, but sudd" +
-    "enly, you laptop stops working.";
+            this.groupBox1.Text = "You enter the Conference Room. It\'s time to tell the Boss your big plans, but sud" +
+    "denly, your laptop stops working.";
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button3.Location = new System.Drawing.Point(12, 140);
+            this.button3.Location = new System.Drawing.Point(12, 217);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 21;
@@ -215,7 +215,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(9, 121);
+            this.label7.Location = new System.Drawing.Point(9, 182);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(207, 16);
             this.label7.TabIndex = 20;
@@ -226,7 +226,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.button2);

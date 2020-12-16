@@ -97,6 +97,12 @@
     <Compile Include="SupplyCloset.Designer.cs">
       <DependentUpon>SupplyCloset.cs</DependentUpon>
     </Compile>
+    <Compile Include="WinScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinScreen.Designer.cs">
+      <DependentUpon>WinScreen.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Breakroom.resx">
       <DependentUpon>Breakroom.cs</DependentUpon>
     </EmbeddedResource>

@@ -38,15 +38,26 @@ namespace AdventureGameProject
             sum = s.Next(1, 9) + info.Caffeine;
             if (sum >= 7)
             {
+                MessageBox.Show("Success");
+                
                 Cubicle n = new Cubicle(info);
                 n.Show();
                 this.Hide();
             }
             else
             {
-                Cubicle n = new Cubicle(info);
-                n.Show();
-                this.Hide();
+                if (sum <= 0)
+                {
+                    LoseScreen x = new LoseScreen();
+                }
+                else
+                {
+                    MessageBox.Show("The computer has crashed.\n\nYou walk to your cubicle, emptyhanded and unprepared");
+
+                    Cubicle n = new Cubicle(info);
+                    n.Show();
+                    this.Hide();
+                }     
             }
         }
 
@@ -57,15 +68,26 @@ namespace AdventureGameProject
             sum = s.Next(1, 9) + info.Caffeine;
             if (sum >= 6)
             {
+                MessageBox.Show("Success");
+                
                 Cubicle n = new Cubicle(info);
                 n.Show();
                 this.Hide();
             }
             else
             {
-                Cubicle n = new Cubicle(info);
-                n.Show();
-                this.Hide();
+                if(sum <= 0)
+                {
+                    LoseScreen x = new LoseScreen();
+                }
+                else
+                {
+                    MessageBox.Show("There is not enough time to find the supplies.\n\nYou walk to your cubicle, emptyhanded and unprepared.");
+                    
+                    Cubicle n = new Cubicle(info);
+                    n.Show();
+                    this.Hide();
+                }
             }
         }
     }
