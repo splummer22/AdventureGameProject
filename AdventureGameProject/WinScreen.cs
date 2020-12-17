@@ -18,11 +18,21 @@ namespace AdventureGameProject
         {
             InitializeComponent();
             info = c;
+            //calls CharacterClass as c, puts the information into info
         }
 
         private void WinScreen_Load(object sender, EventArgs e)
         {
-            label1.Text = "" + (info.Energy * 5);
+            label2.Text = "" + (info.Energy * 5);
+            //calculates score by multiplying energy by 5, displays score
+        }
+
+        private void btnPlayAgain_Click(object sender, EventArgs e)
+        {
+            CharacterCreation x = new CharacterCreation();
+            x.Show();
+            this.Hide();
+            //Allows player to restart game when button is clicked
         }
     }
 }

@@ -50,7 +50,6 @@ namespace AdventureGameProject
             else
             {
                 info.Energy = info.Energy - 2;
-
                 if (info.Energy <= 0)
                 {
                     LoseScreen x = new LoseScreen();

@@ -18,17 +18,20 @@ namespace AdventureGameProject
         {
             InitializeComponent();
             info = c;
+            //calls CharacterClass as c, puts the information into info
         }
 
         private void ConferenceRoom_Load(object sender, EventArgs e)
         {
             pbConferenceRoom.Image = Properties.Resources.Conference_Room;
             pbConferenceRoom.SizeMode = PictureBoxSizeMode.StretchImage;
+            //conference room pic
 
             lblTypingSpeed.Text = "" + info.TypingSpeed;
             lblAdaptability.Text = "" + info.Adaptibility;
             lblCaffiene.Text = "" + info.Caffeine;
             lblPowerPointSkills.Text = "" + info.Strength;
+            //puts stats in stats box
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -36,6 +39,7 @@ namespace AdventureGameProject
             LoseScreen n = new LoseScreen();
             n.Show();
             this.Hide();
+            //determines what happens when button 3 is clicked
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -47,7 +51,7 @@ namespace AdventureGameProject
             {
                 MessageBox.Show("Success");
 
-                WinScreen x = new WinScreen();
+                WinScreen x = new WinScreen(info);
                 x.Show();
                 this.Hide();
             }
@@ -57,6 +61,7 @@ namespace AdventureGameProject
                 x.Show();
                 this.Hide();
             }
+            //determines what happens when button 1 is clicked
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -68,7 +73,7 @@ namespace AdventureGameProject
             {
                 MessageBox.Show("Success!");
 
-                WinScreen x = new WinScreen();
+                WinScreen x = new WinScreen(info);
                 x.Show();
                 this.Hide();
             }
@@ -78,6 +83,7 @@ namespace AdventureGameProject
                 x.Show();
                 this.Hide();
             }
+            //determines what happens when button 2 is clicked
         }
     }
 }

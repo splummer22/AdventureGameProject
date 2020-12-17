@@ -49,6 +49,7 @@ namespace AdventureGameProject
             }
             else
             {
+                info.Energy = info.Energy - 3;
                 if (sum <= 0)
                 {
                     LoseScreen x = new LoseScreen();
@@ -80,6 +81,7 @@ namespace AdventureGameProject
             }
             else
             {
+                info.Energy = info.Energy - 4;
                 if(sum <= 0)
                 {
                     LoseScreen x = new LoseScreen();
