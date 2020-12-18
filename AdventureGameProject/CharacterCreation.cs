@@ -105,7 +105,7 @@ namespace AdventureGameProject
                 Characters.Caffeine = Caffeine;
                 Characters.Strength = PowerPointSkills;
                 Characters.picture = pbCharacter.Image;
-                Characters.Energy = 10;
+                Characters.Energy = 6;
 
                 Reception n = new Reception(Characters);
                 n.Show();

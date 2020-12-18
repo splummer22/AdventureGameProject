@@ -23,7 +23,7 @@ namespace AdventureGameProject
 
         private void WinScreen_Load(object sender, EventArgs e)
         {
-            label2.Text = "" + (info.Energy * 5);
+            label2.Text = "" + (info.Energy * 15);
             //calculates score by multiplying energy by 5, displays score
         }
 

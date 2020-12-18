@@ -47,7 +47,7 @@ namespace AdventureGameProject
         {
             Random s = new Random();
             int sum;
-            sum = s.Next(1, 9) + info.Caffeine;
+            sum = s.Next(1, 9) + info.Adaptibility;
             if (sum >= 7)
             {
                 MessageBox.Show("Success");

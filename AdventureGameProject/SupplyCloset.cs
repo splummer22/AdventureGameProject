@@ -38,8 +38,8 @@ namespace AdventureGameProject
         {
             Random s = new Random();
             int sum;
-            sum = s.Next(1, 9) + info.Caffeine;
-            if (sum >= 8)
+            sum = s.Next(1, 9) + info.TypingSpeed;
+            if (sum >= 6)
             {
                 MessageBox.Show("Success");
                 
